@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <meta name="description" content="Portfólio minimalista e elegante de Lunna.">
+  
+  <!-- Google Fonts: Playfair Display (Serif para títulos), Space Grotesk & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Estilos principais -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+  <!-- Barra de Navegação Superior Fixa (Fiel à Página 1) -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <nav class="main-nav" id="main-nav">
+        <a href="#inicio" class="nav-link active">INÍCIO</a>
+        <a href="#quem-eu-sou" class="nav-link">QUEM EU SOU</a>
+        <a href="#tecnologias" class="nav-link">TECNOLOGIAS</a>
+        <a href="#curiosidades" class="nav-link">CURIOSIDADES</a>
+        <a href="#contato" class="nav-link">CONTATO</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menu de navegação">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         1. INÍCIO / HERO (Fiel à Imagem 1)
+         ========================================================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="hero-center">
+        <div class="logo-wrapper">
+          <img src="assets/logo.png" alt="Portfólio" class="hero-logo" id="hero-logo">
+          
+          <div class="sparkle-effects" aria-hidden="true">
+            <span class="sparkle-float sp-1">✦</span>
+            <span class="sparkle-float sp-2">★</span>
+            <span class="sparkle-float sp-3">✦</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detalhe da estrela no canto inferior esquerdo -->
+      <div class="corner-star corner-star-bottom-left" aria-hidden="true">
+        <img src="assets/star.png" alt="" class="star-img">
+      </div>
+
+      <!-- Indicador sutil de rolagem -->
+      <a href="#quem-eu-sou" class="scroll-indicator" aria-label="Rolar para baixo">
+        <span class="scroll-text">EXPLORAR</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ==========================================================================
+         2. QUEM EU SOU? (Fiel à Continuação 1)
+         ========================================================================== -->
+    <section class="page-section section-quem-eu-sou" id="quem-eu-sou">
+      <!-- Decorações flutuantes -->
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-top-left" aria-hidden="true">
+      <div class="dec-item dec-dot dec-dot-left" aria-hidden="true">•</div>
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left" aria-hidden="true">
+      <div class="dec-item dec-dot dec-dot-right" aria-hidden="true">•</div>
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-mid-right" aria-hidden="true">
+      
+      <!-- Linha ondulada decorativa direita -->
+      <svg class="dec-squiggle dec-squiggle-right" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <path d="M45 10 C 20 40, 20 60, 45 90 C 70 120, 20 140, 10 145" />
+      </svg>
+
+      <div class="container section-inner">
+        <!-- Coluna Esquerda: Card Social Interativo com a Foto -->
+        <div class="profile-card-col reveal reveal-left">
+          <div class="social-post-card" id="social-post-card">
+            <!-- Área da Foto com grão analógico -->
+            <div class="photo-placeholder card-photo-area grain-effect">
+              <span class="photo-badge">FOTO</span>
+              <div class="photo-author-overlay">
+                <span class="photo-name">Lunna</span>
+              </div>
+            </div>
+
+            <!-- Corpo do Card -->
+            <div class="card-body">
+              <p class="card-caption">Eu amo roxo! 💜</p>
+              
+              <div class="card-actions-row">
+                <div class="card-tags-group">
+                  <button class="btn-tag btn-tag-outline" id="btn-comentar" title="Comentar no post">comentar</button>
+                  <button class="btn-tag btn-tag-solid" id="btn-salvar" title="Salvar post">salvar</button>
+                </div>
+                
+                <div class="card-metrics-group">
+                  <span class="metric-num" id="like-counter">900</span>
+                  <button class="like-btn" id="btn-like" aria-label="Curtir post" title="Curtir com amor roxo!">
+                    <span class="heart-icon" id="heart-icon">♡</span>
+                  </button>
+                  <span class="metric-num">1k</span>
+                  <span class="metric-icon" title="Compartilhar">✈</span>
+                </div>
+              </div>
+
+              <!-- Mini campo de comentário (surge ao clicar em comentar) -->
+              <div class="inline-comment-box" id="inline-comment-box">
+                <input type="text" id="inline-comment-input" placeholder="Deixe um elogio ou recado..." maxlength="80">
+                <button id="btn-send-comment">Postar</button>
+              </div>
+
+              <div class="card-footer-meta">
+                <span id="card-meta-text">900 likes - 500 comentários - 6 min</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Direita: Textos e Caixa Cinza com Borboleta -->
+        <div class="about-text-col reveal reveal-right">
+          <div class="title-with-star">
+            <h2 class="editorial-heading">QUEM EU SOU?</h2>
+            <img src="assets/star.png" alt="✦" class="heading-star-img">
+          </div>
+
+          <p class="section-lead-text">
+            Criando experiências digitais com foco em <em>simplicidade</em>, <em>elegância</em> e <em>performance</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in augue metus.
+          </p>
+
+          <!-- Caixa cinza de texto detalhado -->
+          <div class="editorial-gray-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in augue metus. Suspendisse ultrices ligula sit amet augue suscipit, at ultrices tellus accumsan. Suspendisse potenti. Nunc massa dui, congue et risus non, vehicula elementum neque. Sed varius laoreet arcu, nec elementum tellus scelerisque in. Integer viverra nisl lectus, sit amet consectetur nibh ultrices nec. Maecenas accumsan orci felis, in ultricies tortor mattis ac. Fusce condimentum, felis vitae scelerisque rhoncus, ligula odio porttitor erat, sit amet feugiat nisi dolor at purus. Nulla vitae ipsum rhoncus, congue ligula quis, pretium massa.
+            </p>
+            
+            <!-- Borboleta decorativa oficial com animação de levitação -->
+            <img src="assets/butterfly.png" alt="borboleta" class="box-butterfly-img floating-butterfly" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Linha divisória horizontal com estrelas -->
+    <div class="section-separator-line"></div>
+
+    <!-- ==========================================================================
+         3. MINHAS TECNOLOGIAS (Fiel à Continuação 2)
+         ========================================================================== -->
+    <!-- ==========================================================================
+         3. MINHAS TECNOLOGIAS (Fiel à Continuação 2)
+         ========================================================================== -->
+    <section class="page-section section-tecnologias" id="tecnologias">
+      <!-- Decorações -->
+      <svg class="dec-squiggle dec-squiggle-left" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <path d="M5 10 C 35 40, 35 60, 5 90 C -15 120, 35 140, 45 145" />
+      </svg>
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-top-right twinkle-star" aria-hidden="true">
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left-big twinkle-star" aria-hidden="true">
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left-small twinkle-star" aria-hidden="true">
+      <div class="dec-item dec-dot dec-bottom-right-1" aria-hidden="true">•</div>
+      <div class="dec-item dec-dot dec-bottom-right-2" aria-hidden="true">•</div>
+
+      <div class="container section-inner-center reveal reveal-up">
+        <h2 class="serif-section-title">Minhas Tecnologias</h2>
+        <p class="section-lead-text centered">
+          Combinando <em>design refinado</em> com <em>código limpo</em> para construir soluções digitais de alto nível.
+        </p>
+
+        <!-- Grade de Ícones das Tecnologias com cores dinâmicas no hover -->
+        <div class="tech-row-container">
+          <!-- 1. HTML5 -->
+          <div class="tech-symbol-item tech-item-html5" title="HTML5 Semântico e Acessível">
+            <div class="tech-symbol-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 2l1.6 18.2L12 22l7.4-1.8L21 2H3zm14.8 5.6h-7.6l.2 2.4h7.2l-.6 6.3-4.8 1.4-4.8-1.4-.3-3.6h2.4l.2 1.7 2.5.7 2.5-.7.3-3.2H6.9L6.3 5.2h11.7l-.2 2.4z"/>
+              </svg>
+            </div>
+            <span class="tech-symbol-name">HTML5</span>
+          </div>
+
+          <!-- 2. CSS3 -->
+          <div class="tech-symbol-item tech-item-css3" title="CSS3 Moderno, Flexbox & Grid">
+            <div class="tech-symbol-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 2l1.6 18.2L12 22l7.4-1.8L21 2H3zm14.7 4.8l-.2 2.4H8.7l.2 2.4h8.3l-.6 6.3-4.6 1.4-4.6-1.4-.3-3.6h2.4l.1 1.7 2.4.6 2.4-.6.3-3.2H6.5l-.6-6.1h11.8z"/>
+              </svg>
+            </div>
+            <span class="tech-symbol-name">CSS3</span>
+          </div>
+
+          <!-- 3. JavaScript -->
+          <div class="tech-symbol-item tech-item-js" title="JavaScript Moderno ES6+">
+            <div class="tech-symbol-icon">
+              <div class="icon-badge-js">JS</div>
+            </div>
+            <span class="tech-symbol-name">JavaScript</span>
+          </div>
+
+          <!-- 4. C -->
+          <div class="tech-symbol-item tech-item-c" title="Linguagem C e Algoritmos">
+            <div class="tech-symbol-icon">
+              <div class="icon-c-lang">C</div>
+            </div>
+            <span class="tech-symbol-name">C</span>
+          </div>
+
+          <!-- 5. MySQL -->
+          <div class="tech-symbol-item tech-item-mysql" title="MySQL e Modelagem Relacional">
+            <div class="tech-symbol-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+                <path d="M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6"/>
+              </svg>
+            </div>
+            <span class="tech-symbol-name">MySQL</span>
+          </div>
+
+          <!-- 6. PostgreSQL -->
+          <div class="tech-symbol-item tech-item-postgres" title="PostgreSQL Avançado">
+            <div class="tech-symbol-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/>
+                <path d="M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6"/>
+              </svg>
+            </div>
+            <span class="tech-symbol-name">PostgreSQL</span>
+          </div>
+
+          <!-- 7. Canva -->
+          <div class="tech-symbol-item tech-item-canva" title="Canva e Criação de Conteúdo">
+            <div class="tech-symbol-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.5 3c-.8 0-1.5.3-2 .8L7.8 13.5c-.6.6-.9 1.4-.9 2.2 0 .8.3 1.6.9 2.2l.6.6c-2.3 1.2-4.4 2.5-4.4 3.5 0 .6.4 1 1 1 1.8 0 4.5-1.5 6.8-3.4l.6.6c1.2 1.2 3.2 1.2 4.4 0l9.7-9.7c1.1-1.1 1.1-2.9 0-4l-4.5-4.5c-.5-.5-1.2-.9-2-.9z"/>
+              </svg>
+            </div>
+            <span class="tech-symbol-name">Canva</span>
+          </div>
+
+          <!-- 8. Figma -->
+          <div class="tech-symbol-item tech-item-figma" title="Figma UI/UX Design e Prototipagem">
+            <div class="tech-symbol-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 2a4 4 0 0 0-4 4 4 4 0 0 0 4 4h4V2H8zm8 0h-4v8h4a4 4 0 0 0 4-4 4 4 0 0 0-4-4zm-8 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4h4v-8H8zm8 0h-4v8a4 4 0 0 0 4-4 4 4 0 0 0 0-4zm-8 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4v-4H8z"/>
+              </svg>
+            </div>
+            <span class="tech-symbol-name">Figma</span>
+          </div>
+
+          <!-- 9. Java -->
+          <div class="tech-symbol-item tech-item-java" title="Java e Orientação a Objetos">
+            <div class="tech-symbol-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M10 2c-.8 1.4.5 2.5 1.5 3.3 1.3 1 2.3 2.1 1.8 3.7-.4 1.3-1.6 2-1.9 3.3-.4 1.4.3 2.6 1 3.7.3.5.5 1 .3 1.5-.3.6-.8.8-1.4.9 1.4.3 2.8-.2 3.5-1.4.8-1.3.4-2.7-.3-3.9-.7-1.2-1.4-2.1-1.1-3.6.4-1.7 1.8-2.6 1.8-4.4 0-1.2-.6-2.2-1.6-2.7-1.2-.6-2.8-.7-3.6-.4zM4 17.5c0 1.9 4 3.5 9 3.5s9-1.6 9-3.5h-18zm17-2.5c-.3-.2-.7-.4-1.2-.5.5-.3.9-.7 1.2-1.2.4-.7.6-1.5.5-2.3 0-1.1-.6-2.1-1.5-2.6-.9-.6-2.1-.7-3.2-.5-.3.1-.7.2-1 .4 1.2.6 2.2 1.6 2.4 2.9.2 1.1-.3 2.3-1.1 3-.7.6-1.6.9-2.5 1-.9.1-1.8 0-2.6-.3-.8-.3-1.6-.7-2.3-1.3-.7-.6-1.2-1.4-1.4-2.3-.2-.9 0-1.8.5-2.6.5-.8 1.3-1.4 2.2-1.7.3-.1.6-.2 1-.2-.5-.3-1-.5-1.6-.5-1.2 0-2.4.4-3.3 1.2-1 1-1.6 2.3-1.5 3.7.1 1.4.8 2.7 1.9 3.5 1.1.8 2.5 1.2 3.9 1.2h10c.8 0 1.5-.4 1.8-1 .3-.6.2-1.3-.2-1.8z"/>
+              </svg>
+            </div>
+            <span class="tech-symbol-name">Java</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Linha divisória horizontal -->
+    <div class="section-separator-line"></div>
+
+    <!-- ==========================================================================
+         4. CURIOSIDADES & CONECTE-SE COMIGO (Fiel à Continuação 3)
+         ========================================================================== -->
+    <section class="page-section section-curiosidades-contato" id="curiosidades">
+      <!-- Decorações marginais -->
+      <svg class="dec-squiggle dec-squiggle-left-top" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <path d="M5 10 C 30 40, 30 60, 5 90 C -15 120, 25 140, 35 145" />
+      </svg>
+      <div class="dec-item dec-dot dec-dot-top-right" aria-hidden="true">•</div>
+      <svg class="dec-squiggle dec-squiggle-right-mid" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+        <path d="M45 10 C 20 40, 20 60, 45 90 C 70 120, 20 140, 10 145" />
+      </svg>
+
+      <div class="container">
+        <!-- Título Conecte-se Comigo! no topo do bloco -->
+        <div class="connect-header-block reveal reveal-up" id="contato">
+          <h2 class="serif-section-title">Conecte-se Comigo!</h2>
+          <p class="section-lead-text centered">
+            Sempre animada para conversar sobre <em>projetos desafiadores</em>, <em>parcerias criativas</em> ou novas oportunidades.
+          </p>
+        </div>
+
+        <!-- Bloco Curiosidades (Fotos inclinadas à esquerda + Texto com borboleta à direita) -->
+        <div class="curiosidades-row">
+          <!-- Coluna Esquerda: Duas fotos inclinadas com sombra 3D e borboletas flutuantes -->
+          <div class="tilted-photos-col reveal reveal-left">
+            <div class="tilted-photos-wrapper">
+              <!-- Foto 1 (Inclinada com efeito 3D interativo) -->
+              <div class="tilted-photo-card photo-card-1 grain-effect" data-tilt>
+                <div class="photo-placeholder tilted-inner">
+                  <span class="photo-badge">FOTO</span>
+                </div>
+              </div>
+
+              <!-- Borboleta sobreposta com levitação -->
+              <img src="assets/butterfly.png" alt="borboleta" class="overlap-butterfly butterfly-mid floating-butterfly" aria-hidden="true">
+
+              <!-- Foto 2 (Sobreposta com efeito 3D interativo) -->
+              <div class="tilted-photo-card photo-card-2 grain-effect" data-tilt>
+                <div class="photo-placeholder tilted-inner">
+                  <span class="photo-badge">FOTO</span>
+                </div>
+              </div>
+
+              <!-- Borboleta decorativa oficial com levitação -->
+              <img src="assets/butterfly.png" alt="borboleta" class="overlap-butterfly butterfly-bottom-left floating-butterfly floating-delay" aria-hidden="true">
+            </div>
+          </div>
+
+          <!-- Coluna Direita: Curiosidades... e Caixa de Texto -->
+          <div class="curiosidades-text-col reveal reveal-right">
+            <div class="title-with-star">
+              <h3 class="serif-subtitle">Curiosidades...</h3>
+              <img src="assets/star.png" alt="✦" class="heading-star-img">
+            </div>
+
+            <p class="section-lead-text">
+              Pequenos detalhes sobre o meu <em>mindset</em>, processo criativo e interesses que moldam minha forma de pensar código.
+            </p>
+
+            <div class="editorial-gray-box">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in augue metus. Suspendisse ultrices ligula sit amet augue suscipit, at ultrices tellus accumsan. Suspendisse potenti. Nunc massa dui, congue et risus non, vehicula elementum neque. Sed varius laoreet arcu, nec elementum tellus scelerisque in. Integer viverra nisl lectus, sit amet consectetur nibh ultrices nec. Maecenas accumsan orci felis, in ultricies tortor mattis ac. Fusce condimentum, felis vitae scelerisque rhoncus, ligula odio porttitor erat, sit amet feugiat nisi dolor at purus. Nulla vitae ipsum rhoncus, congue ligula quis, pretium massa.
+              </p>
+
+              <!-- Borboleta decorativa oficial com levitação -->
+              <img src="assets/butterfly.png" alt="borboleta" class="box-butterfly-img floating-butterfly" aria-hidden="true">
+            </div>
+          </div>
+        </div>
+
+        <!-- Linha divisória com estrela inserida (conforme imagem 3) -->
+        <div class="line-with-star-wrapper reveal reveal-up">
+          <div class="line-segment"></div>
+          <img src="assets/star.png" alt="✦" class="line-star-img">
+        </div>
+
+        <!-- Barra Inferior de Redes Sociais & Botão Voltar ao Topo -->
+        <div class="social-footer-bar">
+          <div class="social-icons-group">
+            <!-- GitHub -->
+            <a href="https://github.com" target="_blank" rel="noopener" class="social-item" aria-label="GitHub">
+              <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span class="social-name">GitHub</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-item" aria-label="LinkedIn">
+              <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span class="social-name">LinkedIn</span>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:contato@exemplo.com" class="social-item" aria-label="Email">
+              <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect width="20" height="16" x="2" y="4" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              <span class="social-name">Email</span>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-item" aria-label="Instagram">
+              <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
+              <span class="social-name">Instagram</span>
+            </a>
+
+            <!-- Discord -->
+            <a href="https://discord.com" target="_blank" rel="noopener" class="social-item" aria-label="Discord">
+              <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+              </svg>
+              <span class="social-name">Discord</span>
+            </a>
+          </div>
+
+          <!-- Botão Circular Voltar ao Topo (↑) -->
+          <a href="#inicio" class="back-to-top-circle" aria-label="Voltar ao início">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
