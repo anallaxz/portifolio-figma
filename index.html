@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
   <meta name="description" content="Portfólio minimalista e elegante de Lunna.">
-  
+
   <!-- Google Fonts: Playfair Display (Serif para títulos), Space Grotesk & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <!-- Estilos principais -->
   <link rel="stylesheet" href="styles.css">
-  
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/logo.png">
 </head>
+
 <body>
 
   <!-- Barra de Navegação Superior Fixa (Fiel à Página 1) -->
@@ -33,7 +37,8 @@
 
       <div class="header-actions">
         <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
-          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="4"></circle>
             <path d="M12 2v2"></path>
             <path d="M12 20v2"></path>
@@ -44,7 +49,8 @@
             <path d="m6.34 17.66-1.41 1.41"></path>
             <path d="m19.07 4.93-1.41 1.41"></path>
           </svg>
-          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
           </svg>
         </button>
@@ -66,7 +72,7 @@
       <div class="hero-center">
         <div class="logo-wrapper">
           <img src="assets/logo.png" alt="Portfólio" class="hero-logo" id="hero-logo">
-          
+
           <div class="sparkle-effects" aria-hidden="true">
             <span class="sparkle-float sp-1">✦</span>
             <span class="sparkle-float sp-2">★</span>
@@ -83,8 +89,9 @@
       <!-- Indicador sutil de rolagem -->
       <a href="#quem-eu-sou" class="scroll-indicator" aria-label="Rolar para baixo">
         <span class="scroll-text">EXPLORAR</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="m6 9 6 6 6-6"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m6 9 6 6 6-6" />
         </svg>
       </a>
     </section>
@@ -99,9 +106,10 @@
       <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left" aria-hidden="true">
       <div class="dec-item dec-dot dec-dot-right" aria-hidden="true">•</div>
       <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-mid-right" aria-hidden="true">
-      
+
       <!-- Linha ondulada decorativa direita -->
-      <svg class="dec-squiggle dec-squiggle-right" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+      <svg class="dec-squiggle dec-squiggle-right" viewBox="0 0 50 150" fill="none" stroke="currentColor"
+        stroke-width="1.8" aria-hidden="true">
         <path d="M45 10 C 20 40, 20 60, 45 90 C 70 120, 20 140, 10 145" />
       </svg>
 
@@ -110,8 +118,8 @@
         <div class="profile-card-col reveal reveal-left">
           <div class="social-post-card" id="social-post-card">
             <!-- Área da Foto com grão analógico -->
-            <div class="photo-placeholder card-photo-area grain-effect">
-              <span class="photo-badge">FOTO</span>
+            <div class="card-photo-area grain-effect">
+              <img src="assets/foto inicial.png" alt="Foto de Lunna" class="card-photo-img">
               <div class="photo-author-overlay">
                 <span class="photo-name">Lunna</span>
               </div>
@@ -120,13 +128,13 @@
             <!-- Corpo do Card -->
             <div class="card-body">
               <p class="card-caption">Eu amo roxo! 💜</p>
-              
+
               <div class="card-actions-row">
                 <div class="card-tags-group">
                   <button class="btn-tag btn-tag-outline" id="btn-comentar" title="Comentar no post">comentar</button>
                   <button class="btn-tag btn-tag-solid" id="btn-salvar" title="Salvar post">salvar</button>
                 </div>
-                
+
                 <div class="card-metrics-group">
                   <span class="metric-num" id="like-counter">900</span>
                   <button class="like-btn" id="btn-like" aria-label="Curtir post" title="Curtir com amor roxo!">
@@ -158,7 +166,8 @@
           </div>
 
           <p class="section-lead-text">
-            Estudante de Ciência da Computação apaixonada por tecnologia e por criar experiências digitais com foco em simplicidade, elegância e performance.
+            Estudante de Ciência da Computação apaixonada por tecnologia e por criar experiências digitais com foco em
+            simplicidade, elegância e performance.
           </p>
 
           <!-- Caixa cinza de texto detalhado -->
@@ -172,9 +181,10 @@
               acredito que o código não precisa ser só funcional, ele também pode transmitir
               personalidade.
             </p>
-            
+
             <!-- Borboleta decorativa oficial com animação de levitação -->
-            <img src="assets/butterfly.png" alt="borboleta" class="box-butterfly-img floating-butterfly" aria-hidden="true">
+            <img src="assets/butterfly.png" alt="borboleta" class="box-butterfly-img floating-butterfly"
+              aria-hidden="true">
           </div>
         </div>
       </div>
@@ -191,12 +201,15 @@
          ========================================================================== -->
     <section class="page-section section-tecnologias" id="tecnologias">
       <!-- Decorações -->
-      <svg class="dec-squiggle dec-squiggle-left" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+      <svg class="dec-squiggle dec-squiggle-left" viewBox="0 0 50 150" fill="none" stroke="currentColor"
+        stroke-width="1.8" aria-hidden="true">
         <path d="M5 10 C 35 40, 35 60, 5 90 C -15 120, 35 140, 45 145" />
       </svg>
       <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-top-right twinkle-star" aria-hidden="true">
-      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left-big twinkle-star" aria-hidden="true">
-      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left-small twinkle-star" aria-hidden="true">
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left-big twinkle-star"
+        aria-hidden="true">
+      <img src="assets/star.png" alt="" class="dec-item dec-img-star dec-bottom-left-small twinkle-star"
+        aria-hidden="true">
       <div class="dec-item dec-dot dec-bottom-right-1" aria-hidden="true">•</div>
       <div class="dec-item dec-dot dec-bottom-right-2" aria-hidden="true">•</div>
 
@@ -208,30 +221,30 @@
 
         <!-- Grade de Ícones das Tecnologias com cores dinâmicas no hover -->
         <div class="tech-row-container">
-          
+
           <!-- 1. HTML5 -->
           <div class="tech-symbol-item tech-item-html5" title="HTML5 Semântico e Acessível">
-              <div class="tech-symbol-icon">
-                  <i class="fa-brands fa-html5 fa-3x"></i>
-              </div>
-              <span class="tech-symbol-name">HTML5</span>
+            <div class="tech-symbol-icon">
+              <i class="fa-brands fa-html5 fa-3x"></i>
+            </div>
+            <span class="tech-symbol-name">HTML5</span>
           </div>
 
           <!-- 2. CSS3 -->
           <div class="tech-symbol-item tech-item-css3" title="CSS3 Moderno, Flexbox & Grid">
-              <div class="tech-symbol-icon">
-                  <!-- Substitua a tag <svg> inteira por esta linha abaixo -->
-                  <i class="fa-brands fa-css3-alt fa-3x"></i>
-              </div>
-              <span class="tech-symbol-name">CSS3</span>
+            <div class="tech-symbol-icon">
+              <!-- Substitua a tag <svg> inteira por esta linha abaixo -->
+              <i class="fa-brands fa-css3-alt fa-3x"></i>
+            </div>
+            <span class="tech-symbol-name">CSS3</span>
           </div>
 
           <!-- 3. JavaScript -->
           <div class="tech-symbol-item tech-item-js" title="JavaScript Moderno ES6+">
-              <div class="tech-symbol-icon">
-                  <i class="fa-brands fa-js fa-3x"></i>
-              </div>
-              <span class="tech-symbol-name">JavaScript</span>
+            <div class="tech-symbol-icon">
+              <i class="fa-brands fa-js fa-3x"></i>
+            </div>
+            <span class="tech-symbol-name">JavaScript</span>
           </div>
 
           <!-- 4. C -->
@@ -252,34 +265,34 @@
 
           <!-- 6. PostgreSQL -->
           <div class="tech-symbol-item tech-item-postgres" title="PostgreSQL Avançado">
-              <div class="tech-symbol-icon">
-                  <i class="fa-solid fa-database fa-2x"></i>
-              </div>
-              <span class="tech-symbol-name">PostgreSQL</span>
+            <div class="tech-symbol-icon">
+              <i class="fa-solid fa-database fa-2x"></i>
+            </div>
+            <span class="tech-symbol-name">PostgreSQL</span>
           </div>
 
           <!-- 7. Canva -->
           <div class="tech-symbol-item tech-item-canva" title="Canva e Criação de Conteúdo">
-              <div class="tech-symbol-icon">
-                  <i class="fa-solid fa-paintbrush fa-2x"></i>
-              </div>
-              <span class="tech-symbol-name">Canva</span>
+            <div class="tech-symbol-icon">
+              <i class="fa-solid fa-paintbrush fa-2x"></i>
+            </div>
+            <span class="tech-symbol-name">Canva</span>
           </div>
 
           <!-- 8. Figma -->
           <div class="tech-symbol-item tech-item-figma" title="Figma UI/UX Design e Prototipagem">
-              <div class="tech-symbol-icon">
-                  <i class="fa-brands fa-figma fa-2x"></i>
-              </div>
-              <span class="tech-symbol-name">Figma</span>
+            <div class="tech-symbol-icon">
+              <i class="fa-brands fa-figma fa-2x"></i>
+            </div>
+            <span class="tech-symbol-name">Figma</span>
           </div>
 
           <!-- 9. Java -->
           <div class="tech-symbol-item tech-item-java" title="Java e Orientação a Objetos">
-              <div class="tech-symbol-icon">
-                  <i class="fa-brands fa-java fa-3x"></i>
-              </div>
-              <span class="tech-symbol-name">JavaScript</span>
+            <div class="tech-symbol-icon">
+              <i class="fa-brands fa-java fa-3x"></i>
+            </div>
+            <span class="tech-symbol-name">JavaScript</span>
           </div>
         </div>
       </div>
@@ -293,11 +306,13 @@
          ========================================================================== -->
     <section class="page-section section-curiosidades-contato" id="curiosidades">
       <!-- Decorações marginais -->
-      <svg class="dec-squiggle dec-squiggle-left-top" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+      <svg class="dec-squiggle dec-squiggle-left-top" viewBox="0 0 50 150" fill="none" stroke="currentColor"
+        stroke-width="1.8" aria-hidden="true">
         <path d="M5 10 C 30 40, 30 60, 5 90 C -15 120, 25 140, 35 145" />
       </svg>
       <div class="dec-item dec-dot dec-dot-top-right" aria-hidden="true">•</div>
-      <svg class="dec-squiggle dec-squiggle-right-mid" viewBox="0 0 50 150" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+      <svg class="dec-squiggle dec-squiggle-right-mid" viewBox="0 0 50 150" fill="none" stroke="currentColor"
+        stroke-width="1.8" aria-hidden="true">
         <path d="M45 10 C 20 40, 20 60, 45 90 C 70 120, 20 140, 10 145" />
       </svg>
 
@@ -317,23 +332,25 @@
             <div class="tilted-photos-wrapper">
               <!-- Foto 1 (Inclinada com efeito 3D interativo) -->
               <div class="tilted-photo-card photo-card-1 grain-effect" data-tilt>
-                <div class="photo-placeholder tilted-inner">
-                  <span class="photo-badge">FOTO</span>
+                <div class="tilted-inner">
+                  <img src="assets/foto secundaria.png" alt="Foto primária de Lunna" class="tilted-photo-img">
                 </div>
               </div>
 
               <!-- Borboleta sobreposta com levitação -->
-              <img src="assets/butterfly.png" alt="borboleta" class="overlap-butterfly butterfly-mid floating-butterfly" aria-hidden="true">
+              <img src="assets/butterfly.png" alt="borboleta" class="overlap-butterfly butterfly-mid floating-butterfly"
+                aria-hidden="true">
 
               <!-- Foto 2 (Sobreposta com efeito 3D interativo) -->
               <div class="tilted-photo-card photo-card-2 grain-effect" data-tilt>
-                <div class="photo-placeholder tilted-inner">
-                  <span class="photo-badge">FOTO</span>
+                <div class="tilted-inner">
+                  <img src="assets/foto primaria.png" alt="Foto secundária de Lunna" class="tilted-photo-img">
                 </div>
               </div>
 
               <!-- Borboleta decorativa oficial com levitação -->
-              <img src="assets/butterfly.png" alt="borboleta" class="overlap-butterfly butterfly-bottom-left floating-butterfly floating-delay" aria-hidden="true">
+              <img src="assets/butterfly.png" alt="borboleta"
+                class="overlap-butterfly butterfly-bottom-left floating-butterfly floating-delay" aria-hidden="true">
             </div>
           </div>
 
@@ -345,17 +362,21 @@
             </div>
 
             <p class="section-lead-text">
-              Pequenos detalhes sobre o meu mindset, processo criativo e interesses que moldam minha forma de pensar código.
+              Pequenos detalhes sobre o meu mindset, processo criativo e interesses que moldam minha forma de pensar
+              código.
             </p>
 
             <div class="editorial-gray-box">
               <p>
-                <strong>A estética do código:</strong> Acredito que a organização e o apelo visual também importam no desenvolvimento. Gosto de personalizar meu ambiente de estudos e projetos com uma identidade marcante.
-                <p><strong>Além das telas:</strong> Quando não estou programando ou resolvendo problemas de lógica, exploro temas de arte digital, edição de imagem e novos aprendizados que exercitam a minha criatividade.
+                <strong>A estética do código:</strong> Acredito que a organização e o apelo visual também importam no
+                desenvolvimento. Gosto de personalizar meu ambiente de estudos e projetos com uma identidade marcante.
+              <p><strong>Além das telas:</strong> Quando não estou programando ou resolvendo problemas de lógica,
+                exploro temas de arte digital, edição de imagem e novos aprendizados que exercitam a minha criatividade.
               </p>
 
               <!-- Borboleta decorativa oficial com levitação -->
-              <img src="assets/butterfly.png" alt="borboleta" class="box-butterfly-img floating-butterfly" aria-hidden="true">
+              <img src="assets/butterfly.png" alt="borboleta" class="box-butterfly-img floating-butterfly"
+                aria-hidden="true">
             </div>
           </div>
         </div>
@@ -370,17 +391,21 @@
         <div class="social-footer-bar">
           <div class="social-icons-group">
             <!-- GitHub -->
-            <a href="https://github.com/anallaxz" target="_blank" rel="noopener" class="social-item" aria-label="GitHub">
+            <a href="https://github.com/anallaxz" target="_blank" rel="noopener" class="social-item"
+              aria-label="GitHub">
               <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
               </svg>
               <span class="social-name">GitHub</span>
             </a>
 
             <!-- LinkedIn -->
-            <a href="https://linkedin.com/in/lunna-souza/" target="_blank" rel="noopener" class="social-item" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/lunna-souza/" target="_blank" rel="noopener" class="social-item"
+              aria-label="LinkedIn">
               <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
               <span class="social-name">LinkedIn</span>
             </a>
@@ -388,18 +413,19 @@
             <!-- Email -->
             <a href="mailto:lunna.devv@gmail.com" class="social-item" aria-label="Email">
               <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect width="20" height="16" x="2" y="4" rx="2"/>
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
               <span class="social-name">Email</span>
             </a>
 
             <!-- Instagram -->
-            <a href="https://instagram.com/anallaxz/" target="_blank" rel="noopener" class="social-item" aria-label="Instagram">
+            <a href="https://instagram.com/anallaxz/" target="_blank" rel="noopener" class="social-item"
+              aria-label="Instagram">
               <svg class="social-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
               <span class="social-name">Instagram</span>
             </a>
@@ -407,7 +433,8 @@
             <!-- Discord -->
             <a href="https://discord.com" target="_blank" rel="noopener" class="social-item" aria-label="Discord">
               <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+                <path
+                  d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
               </svg>
               <span class="social-name">Discord</span>
             </a>
@@ -415,7 +442,8 @@
 
           <!-- Botão Circular Voltar ao Topo (↑) -->
           <a href="#inicio" class="back-to-top-circle" aria-label="Voltar ao início">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round">
               <line x1="12" y1="19" x2="12" y2="5"></line>
               <polyline points="5 12 12 5 19 12"></polyline>
             </svg>
@@ -427,4 +455,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
