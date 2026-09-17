@@ -108,7 +108,7 @@ button {
 }
 
 /* ==========================================================================
-   CABEÇALHO SUPERIOR (IDÊNTICO À PÁGINA 1)
+   CABEÇALHO SUPERIOR 
    ========================================================================== */
 
 .site-header {
@@ -244,7 +244,7 @@ button {
 }
 
 /* ==========================================================================
-   1. HERO / INÍCIO (PÁGINA 1)
+   1. HERO / INÍCIO 
    ========================================================================== */
 
 .hero-section {
@@ -525,7 +525,7 @@ button {
 }
 
 /* ==========================================================================
-   2. SEÇÃO QUEM EU SOU? (CONTINUAÇÃO 1)
+   2. SEÇÃO QUEM EU SOU? 
    ========================================================================== */
 
 .section-inner {
@@ -662,7 +662,7 @@ button {
 }
 
 /* ==========================================================================
-   3. SEÇÃO MINHAS TECNOLOGIAS (CONTINUAÇÃO 2)
+   3. SEÇÃO MINHAS TECNOLOGIAS 
    ========================================================================== */
 
 .section-inner-center {
@@ -742,7 +742,7 @@ button {
 }
 
 /* ==========================================================================
-   4. CURIOSIDADES & CONECTE-SE COMIGO (CONTINUAÇÃO 3)
+   4. CURIOSIDADES & CONECTE-SE COMIGO 
    ========================================================================== */
 
 .section-curiosidades-contato {
@@ -839,7 +839,7 @@ button {
   transform: rotate(14deg);
 }
 
-/* Linha com Estrela na Direita (Fiel à Imagem 3) */
+/* Linha com Estrela na Direita */
 .line-with-star-wrapper {
   display: flex;
   align-items: center;
@@ -865,7 +865,7 @@ button {
   display: block;
 }
 
-/* Barra Social Centralizada e Botão de Topo à Direita (Fiel à Imagem 3) */
+/* Barra Social Centralizada e Botão de Topo à Direita */
 .social-footer-bar {
   position: relative;
   display: flex;

@@ -1,7 +1,3 @@
-/**
- * PORTFÓLIO - SCRIPT DE INTERAÇÕES
- * Rolagem suave, menu ativo, alternador de tema e micro-interações
- */
 
 document.addEventListener('DOMContentLoaded', () => {
   // Elementos do DOM
